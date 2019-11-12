@@ -1,0 +1,117 @@
+.tshirt {
+  background-color: #E6E6E6 
+}
+
+.tshirt-row {
+    display: flex;
+    background-color: #E6E6E6;
+}
+
+.size-row {
+    min-width: 150px;
+    max-width: 151px;
+    background-color: white;   
+    /* border-right: 1px solid black; */
+}
+
+.items-row {
+    margin-left: 30px;
+    min-width: 980px;
+    min-width: 982px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.price-range {
+    display: flex;
+    width: 50%;
+    margin-left: 205px;
+
+    label {
+        width: 40%;
+        margin-top: 8px;
+    }
+}
+
+
+.select-price {
+    width: 100%;
+}
+
+.item {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 23%;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 20px;
+    &:hover{
+        border: 2px rgb(218, 152, 152) solid;
+    }
+
+    img {
+        width: 65%;
+        height: 55%;
+        transform: scale(1.05);
+        margin-top: 11px;
+        padding-bottom: 15px;
+        &:hover{
+            transform: scale(none);
+        }
+    }
+
+    label {
+        font-size: 22px;
+        margin-top: -8px;
+    }
+
+    button {
+        background-color: #FF9F07;
+        width: 195px;
+        color:white;
+        margin-bottom: 25px;
+    }
+}
+
+
+.isshipping {
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    width: 75px;
+    height: 17px;
+    margin-left: 135px;
+    margin-top: 8px;
+}
+
+.noshipping {
+    margin-top: 25px;
+}
+
+.size-chart button:hover {
+    border: 1px solid black;
+}
+
+.btn-clicked {
+    background-color: #E6E6E6;
+    width: 27%;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 50%;
+    height: 34px;
+    color: black;
+}
+
+.btn-clicked:focus {
+    box-shadow: none;
+}
+
+
+@media screen and (max-width: 414px) {
+    .item {
+        margin-left: 35px;
+        width: 35%;
+    }
+    
+}

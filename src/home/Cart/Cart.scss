@@ -1,0 +1,147 @@
+.Cart-drawer {
+  color: white;
+  margin-top: -25px;
+  height: 100%;
+  background: black;
+  box-shadow: 2px 0ps 5px black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(120%);
+  transition: all 0.6s ease-out;
+
+  div {
+    display: flex;
+    width: 365px;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+  }
+}
+
+.Cart-drawer.open {
+  transform: translateX(19%);
+  justify-content: center;
+  align-items: center;
+}
+
+.carttitle {
+  color: white;
+  margin-left: 135px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.badge {
+  background-color: gold;
+  color: black
+}
+
+.line {
+  background: antiquewhite;
+  width: 280px;
+  height: 5px;
+}
+
+.emptycart {
+  width: 360px;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+
+.cartimg {
+  width: 50px;
+  height: 65px;
+  margin-top: 11px;
+  margin-right: 15px;
+}
+
+.cartcontent {
+  margin-top: 5px;
+}
+
+.p-price {
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 30px;
+  color: aqua;
+}
+
+.final-price {
+  position: fixed;
+  margin-left: 15px;
+  font-size: 25px;
+  color: aqua;
+}
+
+.closebtn {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  font-size: 25px;
+  margin-left: 5px;
+  background: transparent;
+  color: white;
+  border: transparent
+}
+
+.product-out {
+  margin-left: 50px;
+
+  label {
+    font-size: 25px;
+    margin-left: 135px;
+  }
+}
+
+.checkout {
+  color: gold;
+  border-color: aliceblue;
+  margin-left: 100px;
+  width: 225px;
+  margin-top: 25px;
+}
+
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35px;
+  width: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+  background: #FF9F07;
+  margin-left: 22px;
+  border-radius: 20%;
+
+  &:focus {
+    outline: none;
+  }
+
+  i {
+    width: 35px;
+    height: 5px;
+    color: black;
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .Cart-drawer {
+    transform: translateX(220%);
+  }
+
+  .Cart-drawer.open {
+    transform: translateX(100%);
+  }
+}

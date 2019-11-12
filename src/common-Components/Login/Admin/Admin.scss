@@ -1,0 +1,22 @@
+@media screen and (max-width: 414px) {
+    .admin{
+        flex-direction: column;
+     h1{
+        font-size: 20px;
+     }  
+     .admin-form{
+       flex-direction: column;
+       text-align: left;
+       margin-left: 55px;
+       input[type="text"],[type="date"],[type="email"],[type="password"], select {
+         margin-left: 0;
+         width: 84%;
+       }
+     }
+     .admin-btn{
+         margin-top: 20px;
+      margin-left: 40px;
+      width: 50%;
+     }
+    }
+  }

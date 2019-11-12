@@ -1,0 +1,74 @@
+.home {
+  text-align: left;
+}
+
+.next:hover {
+  background-color: whitesmoke;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.previous:hover {
+  background-color: whitesmoke;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.content {
+  color: black;
+
+  &:hover,
+  &:active {
+    color: rgb(108, 79, 128);
+    text-decoration: none;
+  }
+}
+
+.img {
+  width: 205px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.img1 {
+  width: 205px;
+  height: 300px;
+  margin-left: 20px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .home {
+    text-align: center
+  }
+
+  .img {
+    width: 185px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .img {
+    width: 230px;
+  }
+
+  .img1 {
+    margin-left: 20px;
+    width: 223px;
+    height: 277px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .img1 {
+    width: 223px;
+    height: 277px;
+  }
+}

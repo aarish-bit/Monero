@@ -1,0 +1,15 @@
+.userlist{
+    text-align: center;
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 414px) {
+    .userlist{
+        h3{
+         margin-left: 10px;       
+        }
+    }   
+    .table{
+        font-size: 8px;
+    }
+}
